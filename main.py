@@ -123,7 +123,6 @@ observer = Observer()
 observer.schedule(
     ImageHandler(),
     WATCH_FOLDER,
-    recursive=False
 )
 
 observer.start()
